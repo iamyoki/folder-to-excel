@@ -1,0 +1,20 @@
+{
+  "name": "folder-to-excel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "iamyoki <yokiyuqian@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "scripts": "better-scripts"
+  },
+  "devDependencies": {
+    "better-scripts": "^0.1.4",
+    "pkg": "^5.8.0"
+  },
+  "dependencies": {
+    "directory-tree": "^3.3.0",
+    "prompts": "^2.4.2",
+    "xlsx": "^0.18.5"
+  }
+}

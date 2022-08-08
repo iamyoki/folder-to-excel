@@ -1,0 +1,5 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamyoki/better-scripts/main/lib/schema.json",
+  "main": ["node index.js", "运行主程序"],
+  "build": ["yarn pkg ./index.js --out-path build", "打包可执行文件"]
+}
