@@ -12,9 +12,9 @@ function main() {
       type: 'text',
       name: 'foldername',
       message: '请输入或拖入文件夹',
-      format: value => value.replace(/("|')/g, ''),
+      format: value => value.replace(/("|'|\s)/g, ''),
       validate: value => {
-        const foldername = value.replace(/("|')/g, '');
+        const foldername = value.replace(/("|'|\s)/g, '');
         let stats;
         try {
           stats = fs.statSync(foldername);
